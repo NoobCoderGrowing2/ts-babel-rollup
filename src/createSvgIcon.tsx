@@ -2,9 +2,9 @@ import React from "react";
 import SvgIcon from "./SvgIcon";
 
 function createSvgIcon(
-  path: Array<React.SVGProps<SVGElement>>,
-  viewBox: string = "0 0 256 256",
-  color: string = "#333",
+  path: React.ReactNode,
+  viewBox: string = "0 0 512 512",
+  color: string = "",
   size: string = "small"
 ) {
   const Component = () => {

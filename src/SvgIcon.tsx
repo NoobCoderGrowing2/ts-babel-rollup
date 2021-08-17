@@ -4,7 +4,7 @@ interface SvgIconProp {
   color: string;
   size: string;
   viewBox: string;
-  children: Array<React.SVGProps<SVGElement>>;
+  children: React.ReactNode;
   component?: any;
 }
 
@@ -36,13 +36,8 @@ function SvgIcon({
   }, [size]);
 
   return (
-    <Component
-      width={width || "24"}
-      height={height || "24"}
-      viewBox={viewBox || "0 0 256 256"}
-      fill={color || "#333"}
-    >
-      {...children}
+    <Component width={width} height={height} viewBox={viewBox} fill={color}>
+      {children}
     </Component>
   );
 }
