@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es2018",
+    "jsx": "react",
+    "outDir": "es",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "declaration": true,
+    "sourceMap": true
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"]
+}
