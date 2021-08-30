@@ -3,7 +3,6 @@
     "module": "esnext",
     "target": "es2018",
     "jsx": "react",
-    "outDir": "es",
     "moduleResolution": "node",
     "esModuleInterop": true,
     "declaration": true,
