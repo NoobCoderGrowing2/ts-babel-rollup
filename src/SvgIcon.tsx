@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
 interface SvgIconProp {
   color: string;
@@ -8,29 +8,25 @@ interface SvgIconProp {
   component?: any;
 }
 
-function SvgIcon({
-  color,
-  size,
-  viewBox,
-  children,
-  component: Component = "svg",
-}: SvgIconProp) {
-  const [width, setWidth] = useState<string>("16");
-  const [height, setHeight] = useState<string>("16");
+function SvgIcon({ color, size, viewBox, children, component: Component = 'svg' }: SvgIconProp) {
+  const [width, setWidth] = useState<string>('16');
+  const [height, setHeight] = useState<string>('16');
 
   useEffect(() => {
     switch (size) {
-      case "small":
+      case 'small':
         break;
-      case "medium":
-        setWidth("24");
-        setHeight("24");
+      case 'medium':
+        setWidth('24');
+        setHeight('24');
         break;
-      case "large":
-        setWidth("36");
-        setHeight("36");
+      case 'large':
+        setWidth('36');
+        setHeight('36');
         break;
       default:
+        setWidth('16');
+        setHeight('16');
         break;
     }
   }, [size]);
