@@ -15,20 +15,20 @@ function SvgIcon({
   children,
   component: Component = "svg",
 }: SvgIconProp) {
-  const [width, setWidth] = useState<string>("24");
-  const [height, setHeight] = useState<string>("24");
+  const [width, setWidth] = useState<string>("16");
+  const [height, setHeight] = useState<string>("16");
 
   useEffect(() => {
     switch (size) {
       case "small":
         break;
       case "medium":
-        setWidth("36");
-        setHeight("36");
+        setWidth("24");
+        setHeight("24");
         break;
       case "large":
-        setWidth("48");
-        setHeight("48");
+        setWidth("36");
+        setHeight("36");
         break;
       default:
         break;
