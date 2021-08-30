@@ -5,7 +5,7 @@ import { DEFAULT_EXTENSIONS } from '@babel/core';
 export default {
   input: 'src/icons/index.tsx',
   output: {
-    file: 'lib/index.esm.js',
+    file: 'dist/index.esm.js',
     format: 'esm',
   },
   plugins: [
