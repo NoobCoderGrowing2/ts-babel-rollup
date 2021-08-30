@@ -1,1 +1,1 @@
-export { default as ExclamationInCircle } from './ExclamationInCircle';
+export { default as ExclamationInCircle } from "./ExclamationInCircle";

@@ -1,0 +1,8 @@
+./.husky
+./node_modules
+./src
+./.gitignore
+./.prettierignore
+./.prettierrc.js
+./rollup.confi.js
+./tsconfig.json
