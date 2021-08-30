@@ -6,3 +6,4 @@ declare function createSvgIcon(
   size?: string
 ): () => JSX.Element;
 export default createSvgIcon;
+//# sourceMappingURL=createSvgIcon.d.ts.map

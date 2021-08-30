@@ -14,3 +14,4 @@ declare function SvgIcon({
   component: Component,
 }: SvgIconProp): JSX.Element;
 export default SvgIcon;
+//# sourceMappingURL=SvgIcon.d.ts.map

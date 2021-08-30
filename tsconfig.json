@@ -5,7 +5,7 @@
     "jsx": "react",
     "moduleResolution": "node",
     "declaration": true,
-    // "declarationMap":true,
+    "declarationMap": true,
     "esModuleInterop": true,
     "sourceMap": true
   },
