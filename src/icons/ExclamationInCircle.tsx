@@ -1,5 +1,5 @@
 import React from "react";
-import createSvgIcon from "../createSvgIcon";
+import createSvgIcon from "./createSvgIcon";
 
 const path: React.ReactNode = (
   <g id="页面-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
